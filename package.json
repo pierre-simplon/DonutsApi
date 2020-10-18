@@ -29,8 +29,9 @@
         "typescript": "^3.8.3"
     },
     "dependencies": {
+        "@types/node": "^14.11.10",
         "cors": "^2.8.5",
         "express": "^4.17.1",
-	"typescript": "^3.8.3"
+        "typescript": "^3.8.3"
     }
 }
