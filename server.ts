@@ -62,6 +62,6 @@ app.get('/donuts/:donutId', (req, res) => {
 });
 app.get('/types', (req, res) => res.json(donutTypes));
 
-app.listen(port, () =>
-    console.log(`Example app listening at http://localhost:${port}`),
+app.listen(process.env.PORT || port, () =>
+    console.log(`Example app listening`),
 );
